@@ -6,13 +6,13 @@ using namespace std;
 int main(){
   int nx = 200;
   int nt = 200;
-  int dx = 0.01;
-  int dt = 0.5;
+  double dx = 0.01;
+  double dt = 0.5;
   double uo[nx][nt];
   double un[nx][nt];
-  int k = 200;
-  int c = 900;
-  int rho = 2700;
+  double k = 200.0;
+  double c = 900.0;
+  double rho = 2700;
   int i, j;
   int it=0;
   ofstream outfile;
